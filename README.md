@@ -39,7 +39,7 @@ Files over 400 KB and files named `_template*` are skipped. `node_modules`, virt
 Requires Python 3.10+ with SQLite 3.34 or newer (for the trigram tokenizer). Check with `python3 -c "import sqlite3; print(sqlite3.sqlite_version)"`.
 
 ```bash
-pipx install git+https://github.com/Barusamico3839/claude-recall
+pipx install git+https://github.com/hikasshi/claude-recall
 # or, without installing:
 curl -O https://raw.githubusercontent.com/Barusamico3839/claude-recall/main/claude_recall.py
 python3 claude_recall.py --help
